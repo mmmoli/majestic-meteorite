@@ -3,9 +3,13 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
-      "@components/*": ["src/components/*"],
-      "@assets/*": ["src/assets/*"]
+      "~/*": ["./src/*"],
+      "~ui/*": ["./src/shared/design-system/ui/*"],
+      "~ui/utils": ["./src/shared/design-system/utils"],
+      "~shared/*": ["./src/shared/*"],
+      "~entities/*": ["./src/entities/*"],
+      "~features/*": ["./src/features/*"],
+      "~widgets/*": ["./src/widgets/*"]
     }
   }
 }
